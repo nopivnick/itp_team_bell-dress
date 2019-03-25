@@ -28,26 +28,26 @@ void setup() {
   tcaselect(0);
   drv.begin();
 
-//  tcaselect(1);
-//  drv.begin();
-//
-//  tcaselect(2);
-//  drv.begin();
-//
-//  tcaselect(3);
-//  drv.begin();
-//
-//  tcaselect(4);
-//  drv.begin();
-//
-//  tcaselect(5);
-//  drv.begin();
-//
-//  tcaselect(6);
-//  drv.begin();
-//
-//  tcaselect(7);
-//  drv.begin();
+  tcaselect(1);
+  drv.begin();
+
+  tcaselect(2);
+  drv.begin();
+
+  tcaselect(3);
+  drv.begin();
+
+  tcaselect(4);
+  drv.begin();
+
+  tcaselect(5);
+  drv.begin();
+
+  tcaselect(6);
+  drv.begin();
+
+  tcaselect(7);
+  drv.begin();
 
   // I2C trigger by sending 'go' command
   drv.setMode(DRV2605_MODE_INTTRIG); // default, internal trigger when sending GO command
@@ -78,52 +78,52 @@ void loop() {
   // wait a bit
   delay(1000);
 
-//  tcaselect(1);
-//  Serial.println("bus 1 selected");
-//  // play the effect!
-//  drv.go();
-//  // wait a bit
-//  delay(1000);
-//
-//  tcaselect(2);
-//  Serial.println("bus 2 selected");
-//  // play the effect!
-//  drv.go();
-//  // wait a bit
-//  delay(1000);
-//
-//  tcaselect(3);
-//  Serial.println("bus 3 selected");
-//  // play the effect!
-//  drv.go();
-//  // wait a bit
-//  delay(1000);
-//
-//  tcaselect(4);
-//  Serial.println("bus 4 selected");
-//  // play the effect!
-//  drv.go();
-//  // wait a bit
-//  delay(1000);
-//
-//  tcaselect(5);
-//  Serial.println("bus 5 selected");
-//  // play the effect!
-//  drv.go();
-//  // wait a bit
-//  delay(1000);
-//
-//  tcaselect(6);
-//  Serial.println("bus 6 selected");
-//  // play the effect!
-//  drv.go();
-//  // wait a bit
-//  delay(1000);
-//
-//  tcaselect(7);
-//  Serial.println("bus 7 selected");
-//  // play the effect!
-//  drv.go();
-//  // wait a bit
-//  delay(1000);
+  tcaselect(1);
+  Serial.println("bus 1 selected");
+  // play the effect!
+  drv.go();
+  // wait a bit
+  delay(1000);
+
+  tcaselect(2);
+  Serial.println("bus 2 selected");
+  // play the effect!
+  drv.go();
+  // wait a bit
+  delay(1000);
+
+  tcaselect(3);
+  Serial.println("bus 3 selected");
+  // play the effect!
+  drv.go();
+  // wait a bit
+  delay(1000);
+
+  tcaselect(4);
+  Serial.println("bus 4 selected");
+  // play the effect!
+  drv.go();
+  // wait a bit
+  delay(1000);
+
+  tcaselect(5);
+  Serial.println("bus 5 selected");
+  // play the effect!
+  drv.go();
+  // wait a bit
+  delay(1000);
+
+  tcaselect(6);
+  Serial.println("bus 6 selected");
+  // play the effect!
+  drv.go();
+  // wait a bit
+  delay(1000);
+
+  tcaselect(7);
+  Serial.println("bus 7 selected");
+  // play the effect!
+  drv.go();
+  // wait a bit
+  delay(1000);
 }
